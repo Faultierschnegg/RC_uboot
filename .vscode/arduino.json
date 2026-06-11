@@ -1,0 +1,22 @@
+{
+  "port": "COM3",
+  "configuration": "",
+  "output": "build",
+  "board": "arduino:renesas_uno:nanor4",
+  "programmer": "cmsis-dap",
+  "useProgrammer": false,
+  "optimize_for_debug": false,
+  "configurationRequired": false,
+  "compile_profile": "",
+  "monitorPortSettings": {
+    "settings": {
+      "port": "COM3",
+      "baudRate": 115200,
+      "lineEnding": "\r\n",
+      "dataBits": 8,
+      "parity": "none",
+      "stopBits": "one"
+    },
+    "profile_name": ""
+  }
+}

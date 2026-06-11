@@ -1,0 +1,9 @@
+{
+  "additionalFiles": "..\\..\\..,..\\..\\..,..\\..\\..,..\\..\\..,..\\..\\..,..\\..\\..,..\\..\\..,..\\..\\..,..\\..\\..",
+  "compiler.optimization_flags": "-Os",
+  "customBuildProperties": "",
+  "fqbn": "arduino:renesas_uno:nanor4",
+  "hardwareFolders": "C:\\Users\\Niki\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\renesas_uno\\1.5.3,C:\\Users\\Niki\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\renesas_uno\\1.5.3",
+  "otherLibrariesFolders": "C:\\Users\\Niki\\Documents\\Arduino\\libraries",
+  "sketchLocation": "C:\\Users\\Niki\\VSCode\\RC_controller_elrs"
+}

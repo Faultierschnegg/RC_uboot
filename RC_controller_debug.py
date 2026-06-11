@@ -24,7 +24,9 @@ try:
         # Print any pressed buttons
         buttons_pressed = [i for i in range(controller.get_numbuttons()) if controller.get_button(i)]
         
-        print(f"{axes_str} || Buttons Pressed: {buttons_pressed}", end="\r")
+        hats_str = " | ".join([f"Hat {i}: {controller.get_hat(i)}" for i in range(controller.get_numhats())])
+
+        print(f"{axes_str} || Buttons Pressed: {buttons_pressed} || Hat Pressed: {hats_str}", end="\r")
         time.sleep(0.1)
 except KeyboardInterrupt:
     pygame.quit()
